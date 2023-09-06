@@ -96,6 +96,23 @@ struct MeditationListFeature: Reducer {
 
 struct MeditationList: View {
   let store: StoreOf<MeditationListFeature>
+  var gradieentTextColorFirst = Color(
+    red: 203/255,
+    green: 193/255,
+    blue: 173/255
+  )
+  
+  var gradieentTextColorSecond = Color(
+    red: 177/255,
+    green: 216/255,
+    blue: 203/255
+  )
+  
+  var gradieentTextColorThird = Color(
+    red: 167/255,
+    green: 224/255,
+    blue: 215/255
+  )
 
   var body: some View {
     WithViewStore(self.store, observe: { $0 }) { viewStore in
@@ -159,9 +176,3 @@ struct MeditationList: View {
     )
   }
 }
-
-var gradieentTextColorFirst = Color(red: 203/255, green: 193/255, blue: 173/255)
-
-var gradieentTextColorSecond = Color(red: 177/255, green: 216/255, blue: 203/255)
-
-var gradieentTextColorThird = Color(red: 167/255, green: 224/255, blue: 215/255)
