@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "audio_files": [
+      {
+        "id": 101,
+        "name": "name1",
+        "audio": "https://api.momentsofspace.com/api/audio/101/download/",
+        "version": "1.0",
+        "duration_seconds": 527
+      }
+    ],
+    "title": "By the Sea",
+    "subtitle": "Breathe the sea air",
+    "description": "Wind down and rest with the sand between your toes."
+  },
+  {
+    "id": 2,
+    "audio_files": [
+      {
+        "id": 102,
+        "name": "name2",
+        "audio": "https://api.momentsofspace.com/api/audio/102/download/",
+        "version": "1.1",
+        "duration_seconds": 600
+      }
+    ],
+    "title": "In the Forest",
+    "subtitle": "Hear the birds",
+    "description": "Experience the beauty of nature."
+  },
+  {
+    "id": 3,
+    "audio_files": [
+      {
+        "id": 103,
+        "name": "name3",
+        "audio": "https://api.momentsofspace.com/api/audio/103/download/",
+        "version": "1.2",
+        "duration_seconds": 720
+      }
+    ],
+    "title": "Under the Stars",
+    "subtitle": "Look at the sky",
+    "description": "A moment of serenity under the stars."
+  },
+  {
+    "id": 4,
+    "audio_files": [
+      {
+        "id": 104,
+        "name": "name4",
+        "audio": "https://api.momentsofspace.com/api/audio/104/download/",
+        "version": "1.3",
+        "duration_seconds": 540
+      }
+    ],
+    "title": "Cityscape",
+    "subtitle": "Urban sounds",
+    "description": "The hustle and bustle of city life."
+  }
+]
