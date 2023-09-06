@@ -44,6 +44,9 @@ Networking is faked in this task, simulating the fetching of meditation audio co
 
 Main feature where all the logic is running with Reducer and Actions
 
+### Data
+Data is mocked as json file in meditations.json, if reviewer will want to test on various test cases, this json file need to be changed.
+
 ## Testing
 
 Due to time constraints, unit tests for the reducer were not completed. However, the project is structured to be testable, utilizing TCA's test utilities.
